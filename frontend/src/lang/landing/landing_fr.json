@@ -1,0 +1,22 @@
+{
+  "phones": "Tout magasiner",
+  "placeholder": "qu'est-ce que tu cherches?",
+  "landing_text": "Pour tout type de joueur moderne.\n \n Nous avons ce qu'il vous faut.",
+  "button": "Tout magasiner",
+  "search_p": "qu'est-ce que tu cherches?",
+  "log_out": "Êtes-vous sûr de vouloir quitter?",
+  "l_title": "Se déconnecter",
+  "ok": "Oui",
+  "no": "Non",
+  "cart": "Panier actuel",
+  "checkout": "Vérifier",
+  "edit": "Modifier",
+   "cart_menu": "Modifier le menu du panier",
+  "edit_quan": "Modifier les quantités",
+  "alert-success": "préférences de panier mises à jour",
+  "alert-invalid1": "s'assurer que toutes les quantités sont saisies!",
+   "alert-invalid2": "les quantités saisies doivent être des nombres valides!",
+  "alert-invalid3": "les quantités saisies doivent être comprises entre 0 et 10",
+   "empty_cart": "Vous devez mettre quelque chose dans votre panier pour passer à la caisse",
+   "empty": "veuillez saisir un terme de recherche avant de continuer !"
+}

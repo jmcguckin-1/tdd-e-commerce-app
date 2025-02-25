@@ -1,0 +1,22 @@
+{
+  "phones": "Shop All",
+  "placeholder": "what are you looking for?",
+  "landing_text": "For every type of modern gamer. \n \n We've got you covered.",
+  "button": "Shop All",
+  "search_p": "what are you looking for?",
+  "log_out": "Are you sure you want to leave?",
+  "l_title": "Log Out",
+  "ok": "Yes",
+  "no": "No",
+   "cart": "Current Cart",
+  "edit": "Edit",
+   "checkout": "Checkout",
+  "cart_menu": "Edit Cart Menu",
+  "edit_quan": "Edit quantities",
+   "alert-success": "cart preferences updated",
+  "alert-invalid1": "ensure all quantities are entered!",
+   "alert-invalid2": "quantities entered should be valid numbers!",
+  "alert-invalid3": "quantities entered should be between 0 and 10",
+  "empty_cart": "You must put something in your cart to checkout",
+  "empty": "please enter a search term before continuing!"
+}

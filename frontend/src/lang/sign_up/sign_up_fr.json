@@ -1,0 +1,19 @@
+{
+  "sign_up": "S'inscrire!",
+  "placeholder1": "entrez votre nom",
+  "placeholder2": "Entrez votre adresse email",
+  "placeholder3": "tapez votre mot de passe",
+  "placeholder4": "entrez à nouveau votre mot de passe",
+  "link": "Avoir un compte? Se connecter ici!",
+  "alert.heading1": "Mot de passe pas assez fort",
+  "alert.heading2": "Des champs laissés de côté !",
+  "alert.message1": "Les mots de passe doivent correspondre à nos normes à gauche !",
+  "alert.message2": "Veuillez vous assurer d'avoir saisi toutes vos coordonnées",
+  "capital": "Le mot de passe a une lettre majuscule",
+  "match": "Les mots de passe correspondent",
+  "special": "Le mot de passe comporte \n des caractères spéciaux",
+  "length": "Le mot de passe comporte \n au moins 8 caractères",
+  "number": "Le mot de passe a un numéro",
+  "email_check": "Les e-mails doivent se terminer par @gmail.com",
+  "already_exists": "existe déjà"
+}

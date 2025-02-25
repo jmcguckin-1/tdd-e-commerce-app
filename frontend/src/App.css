@@ -1,0 +1,737 @@
+
+#sign_in, #sign_up{
+  position: absolute;
+  z-index: 1;
+  left:14%;
+  width:100%;
+  height: 100%;
+  background-image: url("images/joystick-4321216_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+#sign_in input, #sign_up input{
+  font-size: 21px;
+  background-color: rgba(0,0,0,0);
+  color:white;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid white;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  padding:2%;
+  margin-left: 20%;
+}
+#sign_up input{
+    font-size:19px;
+    width:55%;
+}
+
+#sign_up h1{
+  color: white;
+  margin-left: 36%;
+}
+
+#sign_in_heading{
+margin-top:1%;
+
+}
+
+
+#sign_in input:focus, #sign_up input:focus{
+  outline: none;
+  border-bottom: 3px solid white;
+}
+
+#signInBtn{
+  font-size: 24px;
+  position: absolute;
+  width:35%;
+  top:60%;
+  left:-14%;
+
+}
+
+#form2{
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  width:31%;
+  height:56%;
+  left: 24%;
+  top: 20%;
+}
+
+.button-44 {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  margin-left: 27%;
+  margin-top: 1%;
+  position:absolute;
+  left:24%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+
+
+#withGoogle{
+  font-size: 20px;
+  position: absolute;
+  left:56%;
+  top:60%;
+  height:19%;
+  border-radius: 10%;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  background-color: white;
+}
+
+#sign_in input{
+  padding: 1.6%;
+  margin-left: 23%;
+}
+
+#email{
+  margin-top: 25%;
+}
+
+#sign_in h1{
+  color:white;
+  position: absolute;
+  left:40%;
+  top:8%;
+}
+
+#signInLink{
+  position: absolute;
+  top:93%;
+  left:22%;
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+}
+
+#signUpLink{
+  position: absolute;
+  top:85%;
+  left:13%;
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+}
+
+#signUpLink:hover, #signInLink:hover{
+    font-weight: bold;
+}
+
+button:hover, a:hover{
+  cursor:pointer;
+}
+
+.alert, .alert1, .alert2{
+  display:none;
+  position: absolute;
+  top:-15%;
+  left:14%;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+}
+
+.alert{
+  left: 20%;
+}
+
+.alert{
+  width:60%;
+}
+
+.alert1{
+  z-index: 10;
+}
+
+#close, #closeP2{
+  position: absolute;
+  top:-15%;
+  left:71%;
+  color: red;
+  display:none;
+}
+
+#close{
+  z-index: 10;
+  left:75%;
+}
+
+#closeP2{
+  left:86%;
+  z-index: 15;
+}
+
+#close:hover, #closeP:hover, #closeP2:hover{
+  cursor:pointer;
+}
+
+.passwordCheck{
+  position: absolute;
+  bottom:32%;
+  z-index: 10;
+  background-color: white;
+}
+
+#form{
+  z-index: 10;
+  position: absolute;
+  background-color: rgba(0,0,0,0.75);
+  top:15%;
+  left:24%;
+  width:30%;
+  height:55%;
+  padding: 2.2%;
+}
+
+#background{
+  position: absolute;
+  z-index: -1;
+  left:-30%;
+}
+
+#gLogo{
+  position: relative;
+  top:10%;
+  width:20%;
+  height: 40%;
+}
+
+#langSignIn, #langSignUp, #langLanding{
+  color:white;
+  background-color: rgba(0,0,0,0.4);
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 24px;
+  border: none;
+  position:absolute;
+  top:10%;
+  left:83%;
+}
+
+#langSignIn{
+     top:24%;
+  left:50%;
+  z-index:10;
+}
+
+
+/* Landing CSS */
+#landingpic{
+ height:70%;
+  width:100%;
+}
+
+#langLanding{
+  top:3%;
+  left:94%;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 30px;
+  border:1px solid white;
+}
+
+#overlay{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  width:100%;
+  height: 136%;
+  top:11.1%;
+  left:0;
+  right:0;
+  bottom: 0;
+}
+
+#overlay h1{
+  color:white;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size:82px;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+#shop_all{
+  position: absolute;
+  left:65%;
+  top:47%;
+  font-size:30px;
+  width:25%;
+}
+
+.productImage{
+  width:90%;
+  position: relative;
+  left:-9%;
+  top:-9%;
+  height:65%;
+  background-color: #F5F5F5;
+  padding:14%;
+  border-radius: 43% 43% 0 0;
+}
+
+.grid-container {
+  position: absolute;
+  top:23%;
+  display: grid;
+  border-collapse: collapse;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background-color: lightgray;
+}
+
+.grid-item {
+  border-collapse: collapse;
+  border: 3px solid #ccc;
+  border-radius: 43% 43% 0 0;
+  width:65%;
+  padding:6%;
+  margin-left: 6%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: 'Kanit', sans-serif;
+         text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-decoration: none;
+  text-align: center;
+  background-color: lightgray;
+  transition: transform 0.5s ease-in-out;
+}
+
+.productDetails{
+  margin-top: -8%;
+  text-align:left;
+         text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-decoration: none;
+}
+
+.grid-item:hover{
+  border: 6px solid #ccc;
+  cursor:pointer;
+}
+
+.searchRes{
+  font-family: 'Kanit', sans-serif;
+  z-index:12;
+  position: absolute;
+  font-style:italic;
+  font-size:22px;
+  top:15%;
+  left:7%;
+}
+
+.itemLength{
+  font-family: 'Kanit', sans-serif;
+  z-index:12;
+  position: absolute;
+  left:46%;
+  top:14%;
+  padding: 1%;
+}
+
+#sort{
+  position: absolute;
+  top:15%;
+  font-size: 22px;
+  left:70%;
+  padding: 0.4%;
+}
+
+.filter{
+  background-color:white;
+  position:absolute;
+  left:88%;
+  top:14.5%;
+  width:11%;
+  height:5.5%;
+  font-size:20px;
+}§
+.filter:hover{
+  cursor:pointer;
+}
+
+/* Filtering Products */
+#filterBar{
+  display: none;
+          text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-decoration: none;
+  background-color: #F5F5F5;
+  z-index: 10;
+  position: fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  font-family: 'Kanit', sans-serif;
+  padding: 4%;
+  border-left: 2px solid rgba(0,0,0,0.8);
+
+}
+
+
+#overlay1{
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  width:84%;
+  height:100%;
+  top: 0;
+  bottom: 0;
+  z-index: 6;
+  display: none;
+}
+
+#clearChoices{
+  font-size: 20px;
+  width:12%;
+  position: fixed;
+  left:81%;
+   top:65%;
+}
+
+#refine{
+  font-size: 20px;
+  width:12%;
+  position: fixed;
+  top:80%;
+  left:81%;
+}
+
+#filterBar label{
+  font-size: 20px;
+}
+
+#filterBack{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#filterBar p{
+  font-size: 24px;
+}
+
+#filterForm{
+  position: absolute;
+  top:6.6%;
+}
+
+#back{
+  position: relative;
+  top:-12%;
+  left:-10%;
+}
+
+#back:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+accent-color: #e62143;
+  margin: 4px 0 0;
+    line-height: normal;
+  width:20%;
+  height:20%;
+}
+
+.slider{
+  color: #e62143;
+}
+
+.productInfo{
+  display: none;
+         text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-decoration: none;
+  z-index:12;
+}
+
+#noProducts, #noFilter{
+  position: absolute;
+  top:25%;
+  left:32%;
+  display:none;
+}
+
+#banner{
+  width:30%;
+  position: absolute;
+  top:8%;
+  left:24%;
+}
+
+
+#signUpBanner{
+  width:30%;
+  position: absolute;
+  top:5%;
+  left:23%;
+}
+#itemLang{
+     color:black;
+  background-color: rgba(255,255,255,0.4);
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 24px;
+  border: 2px solid black;
+  position:absolute;
+  top:15%;
+  left:2%;
+}
+#enterEmail, #changePassword, #accountVSignIn{
+    display:none;
+     background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  width:30%;
+  height:51%;
+  left: 24%;
+  top: 20%;
+
+}
+
+#forgotPassword{
+     display:none;
+}
+
+#forgot{
+    position: absolute;
+  top: 88%;
+  left:13%;
+  font-size: 20px;
+  color:white;
+}
+
+
+#forgot:hover{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+
+#accountVSignIn p{
+    color:white;
+    position:absolute;
+    top:2%;
+    left:10%;
+    font-size:24px;
+    font-weight:bold;
+}
+
+#accountVSignIn input{
+    position:absolute;
+    top:50%;
+     left:2%;
+}
+
+#enterEmail input{
+    position:absolute;
+    top:44%;
+    left:-3%;
+    width:60%;
+}
+
+#accountVSignIn button, #enterEmail button, #changePassword button{
+    position:absolute;
+    top:75%;
+    left:15%;
+      font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+      font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  text-align: center;
+    color:white;
+    background-color: #e62143;
+    font-size:20px;
+    width:80%;
+}
+
+ #enterEmail button{
+     top:70%;
+    left:21%;
+      width:60%;
+ }
+
+
+ #changePassword button{
+     top:70%;
+    left:20%;
+      width:60%;
+ }
+
+#enterEmail p, #changePassword p{
+    color:white;
+    position:absolute;
+    top:7%;
+    left:6%;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+#enterEmail p{
+    font-size:20px;
+     top:18%;
+}
+
+#backForgot{
+display:none;
+    font-size:20px;
+   position:absolute;
+   left:20%;
+   top:-25%;
+   width:60%;
+}
+#passInputs{
+     position:absolute;
+     top:30%;
+     left:10%;
+
+}
+
+#loading_screen{
+    background-color:rgb(211,211,211);
+    color:white;
+    z-index:14;
+    position:fixed;
+    top:24%;
+    width:100%;
+    height:100%;
+      text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-align:center;
+    padding:1%;
+    display:none;
+
+}
+
+#notFound{
+    width:65%;
+    position:absolute;
+    left:11%;
+}
+
+/* Responsive Design: Adjust layout for extra large screens */
+@media only screen and (min-width: 1600px) {
+   #signInBtn{
+  font-size: 27px;
+  width:40%;
+  top:60%;
+  left:-12%;
+
+}
+
+#withGoogle{
+  font-size: 26px;
+  left:56%;
+  top:60%;
+  height:12%;
+}
+
+#signUpLink{
+  top:78%;
+  left:24%;
+  font-size: 26px;
+}
+
+#forgot{
+  top: 82%;
+  left:24%;
+  font-size: 27px;
+  color:white;
+}
+
+#form2{
+  width:30%;
+  height:56%;
+  left: 24%;
+  top: 20%;
+  padding:0.1%;
+}
+
+#form{
+    padding: 2%;
+}
+
+
+#sign_in input, #sign_up input{
+  font-size: 27px;
+  padding:3%;
+  margin-left: 24%;
+  width:39%;
+}
+ #sign_up input{
+ font-size: 25px;
+    width:40%;
+ }
+
+.grid-item{
+    font-size:18px;
+}
+
+#signInLink {
+    top:82%;
+  left:25%;
+  font-size: 27px;
+}
+#sort{
+    font-size:27px;
+}
+
+#filterBar{
+    padding: 2.5%;
+}
+
+#filterBar label{
+    font-size: 25px;
+}
+#clearChoices{
+      left:95%;
+   top:62%;
+}
+
+.alert2{
+    width:72%;
+}
+
+}
+
+

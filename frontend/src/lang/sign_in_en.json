@@ -1,0 +1,19 @@
+{
+  "placeholder1": "enter your email address",
+  "placeholder2": "enter your password",
+  "app.sign_in": "Sign In",
+  "g_sign_in": "Google Sign In",
+  "link": "Don't have an account? Sign Up here!",
+  "capital": "Password has a captial letter",
+  "match": "Passwords match",
+  "special": "Password has special characters",
+  "length": "Password has at least 8 characters",
+  "number": "Password has a number",
+  "forgot_password": "Forgot Password?",
+  "enter_email": "Enter your email to reset your password",
+  "send_reset": "Send password reset",
+  "alert-success": "Password reset email sent, check your inbox",
+  "email_check": "Emails should end in @gmail.com!",
+  "blank_entry": "Please ensure all details have been entered!",
+  "back_sign_in": "Back to Sign In"
+}

@@ -1,0 +1,19 @@
+{
+  "sign_up": "Sign Up!",
+  "placeholder1": "enter your name",
+  "placeholder2": "enter your email address",
+  "placeholder3": "enter your password",
+  "placeholder4": "enter your password again",
+  "link": "Have an account? Sign In here!",
+  "alert.heading1": "Password not strong enough",
+  "alert.heading2": "Fields Left Out!",
+  "alert.message1": "Passwords should match our standards to the left!",
+  "alert.message2": "Please ensure you have entered all your details!",
+  "capital": "Password has a captial letter",
+  "match": "Passwords match",
+  "special": "Password has special characters",
+  "length": "Password has at least 8 characters",
+  "number": "Password has a number",
+   "email_check": "Emails should end in @gmail.com!",
+  "already_exists": "already exists"
+}

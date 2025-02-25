@@ -1,0 +1,929 @@
+.productInfo img{
+    width:35%;
+}
+
+.inputProducts{
+    width:20%;
+    text-align:center;
+    position:relative;
+    margin-left: 10%;
+
+}
+
+.grid-item button{
+     background-color: #e62143;
+     color:white;
+     font-size:32px;
+     border:none;
+     padding:1%;
+     height:1%;
+     width:8%;
+     margin-top:-30%;
+     margin-bottom:5%;
+}
+
+#add{
+    position: relative;
+    margin-left:14.2%;
+}
+
+
+#remove{
+    position: relative;
+    margin-left:5%;
+}
+
+#checkout{
+margin-left:20%;
+    background-color: #e62143;
+     color:white;
+     border:none;
+     font-size:16px;
+}
+
+#editCart{
+    position:fixed;
+    right:6%;
+    top:10%;
+    background-color: #e62143;
+     color:white;
+     border:none;
+     font-size:20px;
+}
+
+#total_price{
+    font-weight:bold;
+}
+
+#proceed{
+    position:absolute;
+    top:80%;
+    padding-top:2%;
+    right:1.4%;
+    width:50%;
+    background-color: rgba(255, 255, 255, 1);
+    border-top: 1px solid lightgray;
+    z-index:11;
+    display:none;
+}
+
+#backSearch{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+#productName{
+    margin-left:42.2%;
+}
+
+#productCategory{
+    margin-left:42.5%;
+}
+
+#productImage{
+    margin-top:-8%;
+    margin-left: 4%;
+    margin-right:3%;
+}
+
+#productDesc{
+    position:absolute;
+   margin-left: 42.5%;
+    top:32%;
+    font-size:18px;
+    margin-bottom:2%;
+}
+
+#currentStock{
+    position:absolute;
+   left: 66%;
+    top:58%;
+    font-size:22px;
+    margin-bottom:2%;
+}
+
+#productPrice{
+    position:absolute;
+    margin-left: 42.5%;
+    top:50%;
+}
+
+#cartLength{
+    position:absolute;
+    background:white;
+    color: #e62143;
+}
+
+
+#addCart{
+     position:absolute;
+     left:39%;
+     top:74%;
+     border:none;
+     width:20%;
+     background-color: #e62143;
+     color:white;
+     font-size:32px;
+      font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+}
+.button-44{
+    margin-left:2%;
+}
+
+#checkoutBtn{
+     position:absolute;
+     left:62%;
+     top:74%;
+     width:20%;
+     border:none;
+     background-color: #e62143;
+     color:white;
+     font-size:32px;
+     font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+}
+
+.quantityVal{
+     position:absolute;
+     left:56%;
+     top:59%;
+      font-size:26px;
+}
+
+#enterQuan{
+     position:absolute;
+     left:43%;
+     top:57%;
+     font-size:26px;
+      font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+}
+
+#purchaseForm{
+    position:absolute;
+    top:25%;
+    left:25%;
+    width:56%;
+    height:70%;
+    font-size:20px;
+      max-height:500px;
+    overflow:auto;
+    padding:1%;
+    background-color:white;
+    font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+}
+
+#purchaseForm input{
+
+     border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid black;
+  font-size:20px;
+  width:32%;
+
+}
+
+#purchaseForm input:focus{
+    outline:none;
+}
+
+#openDetails, #hidePayment, .paymentOptions{
+    display:none;
+}
+
+#transLang{
+    color:black;
+  background-color: rgba(255,255,255,0.4);
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 24px;
+  position:absolute;
+  right:2%;
+  top:15%;
+}
+
+.orderItem img{
+    width:35%;
+    margin-top:-13%;
+    margin-left:50%;
+    padding-bottom:2%;
+}
+
+.orderItem{
+    padding:3%;
+    border-bottom:2px solid lightgray;
+}
+
+.orderDisplay{
+    position:absolute;
+            text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-decoration: none;
+    border: 2px solid lightgray;
+    right:29%;
+    padding:1%;
+    top:25%;
+    width:40%;
+    max-height:350px;
+    overflow:auto;
+    display:none;
+    background-color:white;
+
+}
+
+.orderItem b, .orderItem i{
+    font-size:16px;
+   margin-left:4%;
+}
+
+#finalOrder{
+    position:absolute;
+    right:25%;
+    top:10%;
+    display:none;
+}
+
+.transPrice{
+    margin-top:2%;
+    font-weight:bold;
+    margin-right:4%;
+}
+
+#orderConf{
+ background-color: lightgreen;
+ color: black;
+ font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+ padding: 1%;
+ width:60%;
+       text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+    text-decoration: none;
+ position:absolute;
+ top:30%;
+ left:22%;
+
+}
+#landingBtn{
+ position:absolute;
+ top:70%;
+ left:29%;
+ width:45%;
+ height:12%;
+ font-size:30px;
+}
+
+#orderConf p {
+    font-size:22px;
+}
+
+#priceDisplay{
+    position:absolute;
+    right:-1%;
+    margin-top:20%;
+}
+#paypalBtn{
+    position:absolute;
+    right:54%;
+    top:66%;
+    font-size:26px;
+    padding:1%;
+    width:40%;
+    font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+    background-color:rgba(255,255,255,0.8);
+    color:blue;
+}
+
+#cardBtn{
+    position:absolute;
+    right:10%;
+    top:66%;
+    font-size:26px;
+    width:40%;
+    padding:1%;
+     background-color:rgba(0,0,0,0.8);
+     color:white;
+     font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+}
+
+#paymentHeading{
+       position:absolute;
+    right:37%;
+    top:40%;
+    font-size:30px;
+font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+
+}
+
+#emailInput{
+position:absolute;
+top:38%;
+left:40%;
+width:20%;
+
+}
+#emailH{
+position:absolute;
+top:28%;
+left:40%;
+
+}
+
+
+#countryInput{
+position:absolute;
+top:90%;
+left:40%;
+
+}
+#countryLabel{
+position:absolute;
+top:81%;
+left:40%;
+
+}
+#countryLabelNew{
+position:absolute;
+top:69%;
+left:26%;
+
+}
+
+#addr-input{
+    width:40%;
+}
+#countryInputNew{
+position:absolute;
+top:74.5%;
+left:26%;
+
+}
+
+#prefText{
+    font-size:18px;
+}
+
+#paymentPopup{
+    border: 2px solid lightgray;
+    position:absolute;
+    top:36%;
+    left:25%;
+    width:50%;
+    height:40%;
+    padding:1%;
+    z-index: 11;
+    background-color:white;
+    display:none;
+
+}
+
+.overlay-payment{
+    background-color:rgba(0,0,0,0.8);
+    width:100%;
+    height:140%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:none;
+
+}
+
+#paypalimg{
+    width:30%;
+}
+
+#closePayment{
+    position:absolute;
+    font-size:32px;
+    z-index:16;
+    left:72%;
+    top:37%;
+    cursor:pointer;
+    display:none;
+}
+
+#placeOrder{
+    position:absolute;
+    color:white;
+     background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  width:21%;
+  font-size:24px;
+  top:74.5%;
+  left:50%;
+  display:none;
+
+}
+
+.profileIcon{
+      position: absolute;
+    top:24%;
+    margin-left:-35%;
+    font-size:56px;
+     border: 2px solid black;
+    border-radius: 10%;
+    padding:2%;
+     background-color: rgba(255,255,255,1);
+}
+
+#userProfile{
+    position: absolute;
+    left:39%;
+    top:10%;
+    padding:2%;
+    border: 2px solid black;
+    background-color: rgba(255,255,255,1);
+      text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+   font-size:22px;
+    font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+     color:black;
+}
+
+
+#userOptions{
+    font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+    position: absolute;
+    left:40%;
+    top:40%;
+    width:80%;
+     text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+}
+
+#order_h:hover, #discount:hover, #change_p:hover{
+    cursor:pointer;
+}
+
+#order_h{
+  position: absolute;
+  left:30%;
+  padding-bottom:0.5%;
+  border-bottom: 2px solid lightgray;
+  width:22%;
+   background-color: rgba(255,255,255,1);
+     color:black;
+   padding:1%;
+   border-radius: 12%;
+}
+
+#discount{
+  position: absolute;
+  left:-26%;
+  top:1%;
+  padding-bottom:0.5%;
+   padding:1%;
+   border-bottom: 2px solid lightgray;
+  width:22%;
+   background-color: rgba(255,255,255,1);
+     color:black;
+  border-radius: 12%;
+}
+
+.optionsIcon{
+    font-size: 30px;
+}
+
+#change_p{
+  padding-bottom:0.5%;
+  padding:1%;
+  border-bottom: 2px solid lightgray;
+  width:26%;
+   background-color: rgba(255,255,255,1);
+     color:black;
+  border-radius: 12%;
+}
+
+#order_m{
+    margin-left:6%;
+}
+
+#pass_m{
+    margin-left:4%;
+}
+
+#discount_m{
+    margin-left:6%;
+}
+
+.historyImages{
+display: flex;
+    flex-direction: column;
+    width:40%;
+    margin-bottom:5%;
+}
+
+.historyItems{
+    margin-bottom:10%;
+    width:120%;
+}
+
+.imageContainer{
+    width:40%;
+    position:relative;
+   margin-left:18%;
+    padding:1%;
+}
+
+
+
+#orderHistory{
+    display:none;
+    position:absolute;
+    top:22%;
+    width:60%;
+    margin-left:20%;
+}
+
+#orderHistory p{
+    color:white;
+    cursor:pointer;
+}
+
+.pastOrder{
+    display:flex;
+    flex-direction:column;
+}
+
+.pastOrder > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#orderView{
+    border: 2px solid gray;
+    max-height:500px;
+    margin-top:5%;
+    width:90%;
+    overflow:auto;
+      text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  background-color:rgba(255,255,255,1);
+   white-space: pre-line;
+}
+
+#orderView ul{
+    list-style-type: none;
+}
+
+.pastOrder{
+    border-bottom: 2px solid lightgray;
+}
+
+#transProfile, #transLang{
+ color:white;
+  background-color: rgba(0,0,0,0.8);
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 30px;
+  border: 1px solid white;
+  position:absolute;
+  top:2%;
+  left:94%;
+  z-index:10;
+
+}
+
+#transLang{
+    top:15%;
+}
+
+#accountValidation, #passwordChange, #discountCodeEntry{
+    display:none;
+    background-color:white;
+    color:black;
+    position:absolute;
+    top:30%;
+    left:10%;
+    padding:1%;
+        text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+}
+
+
+#passwordChange{
+     padding:3%;
+     left:32%;
+      top:26%;
+     font-size:24px;
+     width: 35%;
+
+}
+
+#passwordChange input, #accountValidation input, #discountCodeEntry input{
+       border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid black;
+  font-size:24px;
+  width:70%;
+
+}
+
+#passwordChange input:focus, #accountValidation input:focus, #discountCodeEntry input:focus{
+      outline:none;
+}
+
+#accountValidation input, #discountCodeEntry input{
+     width:40%;
+     margin-left:27%;
+}
+
+.passwordCheck{
+ left:-70%;
+ font-size:18px;
+ padding:1%;
+
+}
+
+#accountValidation, #discountCodeEntry{
+     padding:3%;
+     left:34%;
+     font-size:16px;
+     width: 35%;
+}
+
+
+#passwordChange button, #accountValidation button, #discountCodeEntry button{
+     font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+      font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  text-align: center;
+    color:white;
+    background-color: #e62143;
+    font-size:20px;
+    width:50%;
+}
+
+#accountValidation button, #discountCodeEntry button{
+     margin-left:23%;
+}
+
+#edit{
+    position:absolute;
+    top:-5%;
+    left:65%;
+    font-size:18px;
+    width:35%;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#detailsForm{
+display:none;
+    position:absolute;
+    top:2%;
+    left:15%;
+    background-color:white;
+    padding:1%;
+    width:75%;
+    height:65%;
+
+}
+
+#detailsForm input{
+       border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid black;
+  font-size:20px;
+}
+
+.detailInput{
+    width:35%;
+}
+
+#opt{
+position:relative;
+left:60%;
+top:-83%;
+font-size:19px;
+}
+
+#changeD {
+    position: absolute;
+    left:57%;
+    top:80%;
+}
+
+#backProf{
+      position: absolute;
+    left:57%;
+    top:66%;
+}
+
+#opt input{
+    width:35%;
+}
+
+#noHistory{
+    display:none;
+    font-size:25px;
+    position:absolute;
+    left:18%;
+    top:22%;
+    padding:1%;
+    white-space: pre-line;
+    width:60%;
+    margin-top:4%;
+    z-index:14;
+    background-color:white;
+         text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+}
+#backBtn{
+    position:absolute;
+    top:-45%;
+    left:5%;
+}
+
+#step1{
+    color:white;
+    font-size:40px;
+    position:absolute;
+    top:15%;
+    left:25%;
+     font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+       text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+}
+
+#step2{
+    color:rgba(255, 255, 255, 0.6);
+    font-size:40px;
+    position:absolute;
+    top:15%;
+    left:55%;
+     font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+       text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+}
+
+#backInfo{
+    position:absolute;
+    bottom:14%;
+     border-radius: 11px;
+  box-sizing: border-box;
+    left:27%;
+    width:20%;
+    font-size:22px;
+    display:none;
+}
+
+#nextPay{
+     position:absolute;
+     bottom:-5%;
+     border-radius: 11px;
+  box-sizing: border-box;
+    left:34%;
+    width:35%;
+    font-size:22px;
+}
+
+#discountUse{
+    width:5%;
+    height:5%;
+}
+
+#backBtnOH{
+    width:40%;
+    margin-top:-6%;
+}
+
+#catSpan, #priceSpan, #delivSpan{
+    font-size:16px;
+    margin-right:1%;
+    background-color:rgba(255,153,153,0.5);
+    border: 1px solid darkred;
+    padding:0.5%;
+    border-radius:30%;
+          text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  display:none;
+}
+
+#priceSpan{
+    position:absolute;
+    left:10%;
+    top:13%;
+}
+
+#catSpan{
+    position:absolute;
+    left:28%;
+    top:12.5%;
+     padding:0.75%;
+     margin-right:4%;
+}
+#delivSpan{
+    position:absolute;
+    left:17%;
+    top:13%;
+}
+
+#noFilter{
+   display:none;
+}
+
+#disLogo{
+    width:30%;
+    position:absolute;
+    top:3%;
+    left:-35%;
+}
+
+#discord{
+    position:absolute;
+    left:20%;
+    top:96%;
+    color:white;
+}
+
+.dateItems{
+    width:20%;
+}
+
+@media only screen and (min-width: 1600px) {
+#productImage{
+     margin-top:-6%;
+    margin-left: 5%;
+    margin-right:3%;
+}
+
+.quantityVal{
+     left:32%;
+}
+#editCart{
+     right:5%;
+    top:8%;
+}
+#purchaseForm{
+ left:29%;
+     width:40%;
+    height:100%;
+     max-height:600px;
+}
+
+#nextPay{
+    bottom:15%;
+     left:29%;
+}
+
+#step1{
+     left:30%;
+     font-size:45px;
+}
+
+#step2{
+     left:40%;
+     font-size:45px;
+}
+
+#transLang{
+    width:3%;
+}
+
+#placeOrder{
+    top:70%;
+}
+
+#backInfo{
+    bottom:22.5%;
+}
+
+.orderItem img{
+    margin-top:-8%;
+}
+#opt{
+    top:-60%;
+}
+#detailsForm{
+    height:50%;
+}
+
+#countryLabelNew{
+    top:52%;
+    left:19%;
+}
+#countryInputNew{
+    top:57%;
+    left:19%;
+}
+
+
+
+}

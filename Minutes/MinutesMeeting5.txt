@@ -1,0 +1,44 @@
+QUEEN'S UNIVERSITY OF BELFAST COMPUTER SCIENCE
+
+Minute of Project Supervision Meeting
+======================================
+
+Student Name: John McGuckin
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr. Vahid Garousi
+
+
+Meeting Number: 5
+
+
+Date of Meeting: 04/12/2023
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Before Meeting
+- Writing Unit, API and UI testing for what I had done so far
+- Working on the interim project report due in January
+
+
+During Meeting
+- Vahid asked me if i had any questions so far and about how I was progressing
+- Told Vahid I had been making good progress with the testing and report
+- I explained that other deadlines were coming up first and I had to prioritise them for a week, and he completely understood
+- I asked some questions about what was required for the report and demo and Vahid answered all of them well.
+
+Action Points:
+==============
+- Go back to development work once Cloud Computing and Concurrent Programming are done
+- Continue with report
+- Make sure to meet all requirements for January Demo
+
+
+
+Date of next meeting:
+====================+
+TBD 2024

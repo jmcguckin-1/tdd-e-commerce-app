@@ -1,0 +1,42 @@
+QUEEN'S UNIVERSITY OF BELFAST COMPUTER SCIENCE
+
+Minute of Project Supervision Meeting
+======================================
+
+Student Name: John McGuckin
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr. Vahid Garousi
+
+
+Meeting Number: 1
+
+
+Date of Meeting: 11/10/2023
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Before Meeting
+
+- Got allocated my top project choice, Project 163
+- Arranged the first meeting for the project
+- Was asked by Vahid to review the project details prior to the meeting
+
+During Meeting
+- Vahid asked me what I knew about Test Driven Development and Multi-Lingual Software
+- Asked me to start working on the initial report
+
+
+Action Points:
+==============
+Work on initial problem description and work plan
+Start thinking about design for the project
+
+
+Date of next meeting:
+====================+
+25/10/2023

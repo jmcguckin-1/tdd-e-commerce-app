@@ -1,0 +1,43 @@
+QUEEN'S UNIVERSITY OF BELFAST COMPUTER SCIENCE
+
+Minute of Project Supervision Meeting
+======================================
+
+Student Name: John McGuckin
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr. Vahid Garousi
+
+
+Meeting Number: 3
+
+
+Date of Meeting: 06/11/2023
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Before Meeting
+
+- Wrapped up design for the frontend and backend
+- Got the sign in and sign up working
+- Made a navigation bar and started working on the search functionality
+
+
+During Meeting
+- Vahid asked me if i had any questions now and about how I was progressing
+- I told him I had made progress with development and asked about how to implement the language functionality
+- Vahid offered advice on a React framework that supports internationalization
+
+Action Points:
+==============
+- Figure out how to do the language translation
+- Continue making progress with development and testing
+
+
+Date of next meeting:
+====================+
+20/11/2023

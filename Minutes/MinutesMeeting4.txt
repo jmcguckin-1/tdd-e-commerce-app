@@ -1,0 +1,45 @@
+QUEEN'S UNIVERSITY OF BELFAST COMPUTER SCIENCE
+
+Minute of Project Supervision Meeting
+======================================
+
+Student Name: John McGuckin
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr. Vahid Garousi
+
+
+Meeting Number: 4
+
+
+Date of Meeting: 20/11/2023
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Before Meeting
+- Got the search product inventory functionality done
+- Figured out how to do translation using Vahid's advice from before
+- Writing Unit, API and UI testing for what I had done so far
+- Started working on filtering product inventory
+
+
+During Meeting
+- Vahid asked me if i had any questions so far and about how I was progressing
+- Told Vahid I had been making good progress in development and testing
+- Asked to see what I had done so far, commenting on the UI looking well and asking to see my product inventory
+- Asked to see my testing and gave me advice on them
+
+Action Points:
+==============
+- Refining tests
+- Keep Working at the development stuff
+
+
+
+Date of next meeting:
+====================+
+04/12/2023

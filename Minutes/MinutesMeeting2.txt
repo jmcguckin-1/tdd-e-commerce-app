@@ -1,0 +1,44 @@
+QUEEN'S UNIVERSITY OF BELFAST COMPUTER SCIENCE
+
+Minute of Project Supervision Meeting
+======================================
+
+Student Name: John McGuckin
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr. Vahid Garousi
+
+
+Meeting Number: 2
+
+
+Date of Meeting: 23/10/2023
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Before Meeting
+
+- Worked on design elements for the project
+- Set up my initial directory structure and started working on the sign in functionality
+- Got the initial work plan done, and asked Vahid to review
+- Got my database for the project set up
+
+
+During Meeting
+- Vahid asked me if i had any questions so far and about how I was progressing
+- I asked for feedback on the work plan
+- Feedback was positive and Vahid highlighted some areas for improvement
+
+Action Points:
+==============
+- Tidy up areas of the problem description and work plan
+- Continue work on design and development that I had already started
+
+
+Date of next meeting:
+====================+
+06/11/2023
